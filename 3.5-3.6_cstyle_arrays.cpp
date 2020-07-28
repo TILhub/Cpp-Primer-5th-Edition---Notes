@@ -19,7 +19,7 @@ int main() {
 
     //defining arrays
     int arr[10];
-    int *parr[sz];  //an array of 42 pointers to int
+    int *parr[sz];  //an array of 3 pointers to int
     std::string bad[sz];
 
     //If we omit the dimension, the compiler infers it from the number of initializers.
