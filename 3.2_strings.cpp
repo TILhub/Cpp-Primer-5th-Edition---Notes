@@ -19,10 +19,9 @@ int main() {
     use the method of s4 as s8 initialization has no advantage over s4 and is less readable
     */
 
-    std::cin >> s1;        //reads whitespace separated string in s1
-    std::cin >> s1 >> s2;  //reads first input into s1 and second into s2
-    while (std::cin >> s1)
-        ;  //reads till eof
+    std::cin >> s1;          //reads whitespace separated string in s1
+    std::cin >> s1 >> s2;    //reads first input into s1 and second into s2
+    while (std::cin >> s1);  //reads till eof
 
     
     //To get a line
